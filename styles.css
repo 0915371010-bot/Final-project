@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(2, 7, 100);
 }
 
 h1 {
@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     border: 4px aqua solid;
     border-radius: 10px;
-    background-color: red;
+    background-color: rgb(14,204, 237);
 }
 
 .main {
@@ -16,4 +16,17 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.main img {
+    filter: drop-shadow(7px 9px 10px white);
+}
+
+a {
+    color: rgb(14,204,237);
+}
+
+img {
+    width: auto;
+    height: auto;
 }
