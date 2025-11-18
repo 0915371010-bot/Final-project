@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Noto+Serif+Dives+Akuru&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background-color: rgb(2, 7, 100);
+    font-family: "Poppins";
+}
+
+h1, h2, h3 {
+    font-family: "Audiowide";
 }
 
 h1 {
-    font-style: italic;
     color: darkblue;
     text-align: center;
     border: 4px aqua solid;
     border-radius: 10px;
     background-color: rgb(14,204, 237);
+    font-size: 60px;
 }
 
 .main {
@@ -20,6 +27,8 @@ h1 {
 
 .main img {
     filter: drop-shadow(7px 9px 10px white);
+    transition: 1.5s ease-in-out;
+
 }
 
 a {
@@ -28,5 +37,4 @@ a {
 
 img {
     width: auto;
-    height: auto;
 }
