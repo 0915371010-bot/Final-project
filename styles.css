@@ -25,9 +25,10 @@ h1 {
     align-items: center;
 }
 
+
 .main img {
     filter: drop-shadow(7px 9px 10px white);
-    transition: 1.5s ease-in-out;
+    transition: 1.5s ease-in-out infinite alternate;
 
 }
 
@@ -37,4 +38,19 @@ a {
 
 img {
     width: auto;
+}
+
+nav.links {
+    color: rgb(14,204, 237);
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@keyframes glow {
+      0
 }
