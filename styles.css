@@ -14,7 +14,7 @@ h1 {
     text-align: center;
     border: 4px aqua solid;
     border-radius: 10px;
-    background-color: rgb(14,204, 237);
+    background-color: rgb(14, 204, 237);
     font-size: 60px;
 }
 
@@ -70,7 +70,7 @@ nav.links {
     border-radius: 5px;
     border: 2px solid;
     margin: 10px;
-    background-color: rgb(14,204, 237);
+    background-color: rgb(0, 0, 255);
 }
 
 
