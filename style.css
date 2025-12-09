@@ -25,4 +25,31 @@ img {
 
 li {
     color: rgb(14, 204, 237);
+     font-size: 20px;
+    width: 200px
+}
+
+
+a {
+    color: white;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: rgb(14, 204, 237);
+}
+
+
+a:hover {
+    background-color: rgb(2, 7, 100);
+    transition: all 0.7s ease;
+}
+
+
+.list ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main {
+    display: flex;
 }
